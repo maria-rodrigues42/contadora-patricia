@@ -82,7 +82,7 @@ section { padding: 80px 0; }
 
 /* === SEÇÃO QUEM SOU EU === */
 .quem-sou-eu { background-color: var(--cor-azul-medio); }
-.profile-img { width: 300px; height: 300px; object-fit: cover; border: 5px solid var(--cor-dourado-logo); }
+.profile-img { width: 30vw; object-fit: cover; border: 5px solid var(--cor-dourado-logo); }
 .quem-sou-list { margin-top: 2rem; }
 .quem-sou-list li { font-size: 1.1rem; margin-bottom: 15px; padding-left: 35px; position: relative; color: var(--cor-texto-claro); }
 .quem-sou-list li::before { content: '✓'; position: absolute; left: 0; color: var(--cor-dourado-logo); font-weight: 700; font-size: 1.2em; }

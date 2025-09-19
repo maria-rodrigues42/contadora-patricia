@@ -105,6 +105,33 @@ section { padding: 80px 0; }
 .diferencial-card h3 { color: var(--cor-azul-escuro); }
 .diferencial-card p { color: var(--cor-texto-escuro); }
 
+
+/* === SEÇÃO LOCALIZAÇÃO === */
+.localizacao {
+    padding-top: 0;
+    padding-bottom: 60px;
+    background-color: var(--cor-fundo-claro);
+}
+.localizacao-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid var(--cor-borda);
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: var(--cor-texto-escuro);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.localizacao-box img {
+    width: 24px;
+    height: 24px;
+}
+
 /* === SEÇÃO SERVIÇOS === */
 .servicos { background-color: var(--cor-azul-escuro); }
 .servicos .card { background-color: var(--cor-azul-medio); border: 1px solid var(--cor-borda); text-align: center; }
